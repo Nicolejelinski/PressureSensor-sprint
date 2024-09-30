@@ -1,5 +1,27 @@
 # PressureSensor-sprint
-Este projeto implementa um sensor de pressão para pneus utilizando um módulo HX711 conectado a um microcontrolador ESP32. O sensor mede a pressão (ou peso) e publica os dados em um broker MQTT. Além disso, o sistema inclui um LED e um buzzer que são ativados quando a pressão ultrapassa um determinado limite.
+Este projeto implementa um sensor de pressão para pneus que utiliza um módulo HX711 conectado a um microcontrolador ESP32. O sensor é projetado para medir o peso (ou pressão) dos pneus de veículos da Fórmula E, uma categoria de automobilismo elétrico que se destaca pela velocidade, eficiência e inovação tecnológica.
+
+## Objetivo
+O principal objetivo deste sensor é monitorar a pressão dos pneus em tempo real, permitindo ajustes imediatos para otimizar o desempenho do veículo durante as corridas. A pressão correta dos pneus é crucial para garantir a aderência, estabilidade e segurança do carro, além de influenciar diretamente na eficiência energética e no desempenho geral.
+
+## Importância na Fórmula E
+### Desempenho do Veículo
+Aderência e Controle: Pneus com pressão inadequada podem afetar a aderência ao asfalto, comprometendo o controle do veículo. Um sensor que monitora constantemente a pressão ajuda a garantir que os pneus estejam sempre nas condições ideais.
+
+#### Eficiência Energética
+Pneus com pressão adequada reduzem o consumo de energia, permitindo que os carros utilizem a carga da bateria de forma mais eficiente. Isso é vital em uma competição onde a autonomia elétrica é um fator crítico.
+
+### Segurança
+Prevenção de Acidentes: Pneus com pressão excessiva ou insuficiente aumentam o risco de falhas e acidentes. Monitorar a pressão em tempo real permite que os pilotos e equipes tomem decisões rápidas para evitar situações perigosas.
+
+### Confiabilidade:
+Com o monitoramento constante, as equipes podem prever e evitar falhas mecânicas, aumentando a confiabilidade do veículo ao longo da corrida.
+
+### Estratégia de Corrida
+Ajustes em Tempo Real: Com os dados de pressão sendo enviados via MQTT, as equipes podem analisar as condições do carro em tempo real e fazer ajustes estratégicos durante a corrida, como paradas nos boxes mais eficientes.
+
+### Análise de Dados
+Os dados coletados podem ser armazenados e analisados após as corridas, fornecendo insights valiosos para otimização futura do carro.
 
 ## Funcionalidades
 Medição de peso utilizando o módulo HX711;
