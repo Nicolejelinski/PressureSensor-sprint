@@ -1,4 +1,4 @@
-# PressureSensor-sprint
+# Smart Pressure Monitoring
 Este projeto implementa um sensor de pressão para pneus que utiliza um módulo HX711 conectado a um microcontrolador ESP32. O sensor é projetado para medir o peso (ou pressão) dos pneus de veículos da Fórmula E, uma categoria de automobilismo elétrico que se destaca pela velocidade, eficiência e inovação tecnológica.
 
 ## Objetivo
